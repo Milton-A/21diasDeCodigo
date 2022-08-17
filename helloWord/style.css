@@ -1,0 +1,43 @@
+body {
+    background-color: #161e35;
+    display: flex;
+    color: #3071e3;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@font-face {
+    src: url(Game\ Of\ Squids.ttf);
+    font-family: spac;
+}
+
+.position-text {
+    font-family: spac;
+    margin-top: 155px;
+    flex: 1;
+    font-size: 40px;
+    height: 246px;
+    width: 700px;
+    border: 1px #a6b2ec solid;
+    display: flex;
+    justify-content: center;
+    background: url(gradient.jpg);
+    background-size: 700px 246px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 0px 15px #42465c;
+    
+}
+.position-text h1 {
+    text-shadow: 2px 2px 0px white;
+}
+
+.comment{
+    margin-top: 190px;
+    font-family: spac;
+    flex: 1;
+    font-size: 24px;
+    color: #799dd3;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
