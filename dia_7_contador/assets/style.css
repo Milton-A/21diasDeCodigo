@@ -1,0 +1,51 @@
+@font-face {
+  font-family: clock;
+  src: url(fonts/DS-DIGII.TTF);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #091720;
+  color: aliceblue;
+}
+
+.container {
+  margin-top: 100px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: darkcyan;
+}
+
+.relogio {
+  margin: 0;
+  margin: 50px;
+  font-family: clock;
+  font-size: 75px;
+}
+.container button{
+  width: 100px;
+  border: none;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.iniciar {
+  background-color: #0bd719;
+}
+
+.pausar {
+  background-color: yellow;
+}
+
+.zerar {
+  background-color: red;
+}
+
+.pausado {
+  color: red;
+}

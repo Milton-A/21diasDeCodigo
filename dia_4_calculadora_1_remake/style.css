@@ -56,10 +56,26 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
-.relogio {
-  font-size: 3em;
+
+.calculadora {
+  width: 400px;
 }
 
-.pausado {
-  color: red;
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #9e9e9e;
 }

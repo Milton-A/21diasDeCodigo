@@ -1,0 +1,64 @@
+@font-face {
+    src: url(Game\ Of\ Squids.ttf);
+    font-family: spa;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 42, 42);
+}
+
+.container {
+    margin-top: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+    box-shadow: 5px 5px 20px 15px #42465c;
+}
+
+h1 {
+    font-family: spa;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    background-color: aqua;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: text;
+    animation-duration: 6s;
+    animation-delay: 1s;
+}
+
+@keyframes text {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}

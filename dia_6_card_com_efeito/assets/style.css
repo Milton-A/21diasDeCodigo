@@ -1,0 +1,38 @@
+@font-face {
+    src: url(Game\ Of\ Squids.ttf);
+    font-family: spa;
+}
+
+
+body {
+    font-family: spa;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.card {
+    background: rgba(56, 42, 42, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 39px;
+}
+
+.container h1{
+    font-family: spa;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}

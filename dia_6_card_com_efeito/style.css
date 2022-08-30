@@ -1,0 +1,157 @@
+@font-face {
+    src: url(assets/fonts/SourceSansPro-Light.ttf);
+    font-family: alba;
+}
+@font-face {
+    src: url(assets/fonts/KeepCalm-Medium.ttf);
+    font-family: keep;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(38, 215, 215), rgb(33, 138, 177), rgb(9, 54, 81));}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.card {
+    background: rgba( 99, 69, 69, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 39px;
+}
+.icone21{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 39px;
+}
+
+.container h1{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.container h2{
+    margin: 0;
+    text-align: center;
+    font-family: keep;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.container p{
+    margin: 0;
+    font-family: alba;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.container .p1 {
+    margin-bottom: 25px;
+}
+
+.container .p2 {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.container .p22 {
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+.efeitos{
+    background-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: text;
+    animation-duration: 6s;
+    animation-delay: 1s;
+}
+
+@keyframes text {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    10% {
+        background-color: aqua;
+        left: 0px;
+        top: 0px;
+    }
+
+    20% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    30% {
+        background-color: darkmagenta;
+        left: 200px;
+        top: 0px;
+    }
+
+    40% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    50% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    60% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+    }
+    70% {
+        background-color: blueviolet;
+        left: 200px;
+        top: 0px;
+    }
+
+    80% {
+        background-color: darkgray;
+        left: 200px;
+        top: 0px;
+    }
+
+    900% {
+        background-color: powderblue;
+        left: 200px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: deeppink;
+        left: 0px;
+        top: 200px;
+    }
+}
+
