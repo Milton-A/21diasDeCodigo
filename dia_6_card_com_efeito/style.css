@@ -11,8 +11,8 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to right, rgb(38, 215, 215), rgb(33, 138, 177), rgb(9, 54, 81));}
-
+    background-image: linear-gradient(to right, rgb(38, 215, 215), rgb(33, 138, 177), rgb(9, 54, 81));
+}
 .container {
     display: flex;
     align-items: center;

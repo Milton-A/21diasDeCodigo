@@ -1,0 +1,71 @@
+body {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #031237, #47326d, #4b244f);
+}
+
+input,
+p,
+button,
+a {
+    margin: 0;
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.card {
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #3d0f5d;
+    -webkit-box-shadow: 8px 8px 16px #43214e, -8px -8px 16px #ba42ba;
+    box-shadow: 8px 8px 16px #43214e, -8px -8px 16px #ff83ff;
+}
+
+.container h1 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.input-text {
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #5f4196;
+}
+
+.conatiner-checkBox {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.btn-checkBox {
+    margin-right: 5px;
+}
+
+.btn-entrar {
+    margin-bottom: 5px;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: #ba42ba;
+}
+.btn-entrar:hover{
+    color: #a294bc;
+    background-color: #752a75;
+}
